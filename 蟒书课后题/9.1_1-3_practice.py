@@ -49,6 +49,7 @@ class User:
         print(message)
 
     def greet_uesr(self):
+        """欢迎用户"""
         greeting = f'你好呀！{self.first_name}用户, 祝你开心每一天！\n'
         print(greeting)
 
