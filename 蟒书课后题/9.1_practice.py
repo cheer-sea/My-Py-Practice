@@ -1,7 +1,8 @@
 '''
-    这个源文件,尝试 __init__ 方法,并通过实例（使用句点）调用类的自定义函数
+    这个源文件,解决蟒蛇书9.1的课后练习题
 '''
 
+## 9-1: 餐馆
 # 定义餐厅类
 class Restaurant:
     """餐厅类"""
@@ -19,6 +20,7 @@ class Restaurant:
         print(f'欢迎来到{self.restaurant_name}, 正在营业')
 
 
+## 9-2: 三家餐馆
 # 实例化餐厅类
 res_1 = Restaurant('餐厅1', '日式料理')
 res_2 = Restaurant('餐厅2', '西式料理')
@@ -29,6 +31,8 @@ res_1.describe_restaurant()
 res_2.describe_restaurant()
 res_3.describe_restaurant()
 
+
+## 9-3: 用户
 # 定义一个用户类
 class User:
     """用户类"""
